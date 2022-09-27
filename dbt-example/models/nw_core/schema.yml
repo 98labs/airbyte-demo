@@ -1,0 +1,46 @@
+version: 2
+
+models:
+  - name: customers
+    description: "Customers Model"
+    columns:
+      - name: customer_id
+        description: "primary key"
+        tests:
+          - unique
+          - not_null
+
+      - name: company
+        description: "company name"
+        tests:
+          - not_null
+
+      - name: contact_person
+        description: "contact_person"
+        tests:
+          - not_null
+
+      - name: address
+        description: "address"
+        tests:
+          - not_null
+
+      - name: city
+        description: "city"
+        tests:
+          - not_null
+
+      - name: region
+        description: "region"
+        tests:
+          - not_null
+
+      - name: postal_code
+        description: "postal_code"
+        tests:
+          - not_null
+
+      - name: country
+        description: "country"
+        tests:
+          - not_null

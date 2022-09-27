@@ -1,0 +1,26 @@
+
+
+============================== 2022-09-15 05:36:38.274748 | 1ae6c02a-f562-40ad-936f-03649e9873df ==============================
+[0m05:36:38.274759 [info ] [MainThread]: Running with dbt=1.2.1
+[0m05:36:38.275048 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/Users/stinkymonkeyph/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m05:36:38.275144 [debug] [MainThread]: Tracking: tracking
+[0m05:36:38.315860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfb2793940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfb27e48e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfb28141c0>]}
+[0m05:36:49.234213 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.8/site-packages/dbt/include/starter_project
+[0m05:37:10.623733 [info ] [MainThread]: 
+Your new dbt project "airbyte_demo" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m05:37:10.624455 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfb2814880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfb2814c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fcfb27e4f70>]}
+[0m05:37:10.624900 [debug] [MainThread]: Flushing usage events

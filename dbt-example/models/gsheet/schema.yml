@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: categories
+    description: "Categories Model"
+    columns:
+      - name: category_id
+        description: "primary key"
+        tests:
+          - unique
+          - not_null
+      - name: description
+        description: "description"
+        tests:
+          - not_null
+      - name: category_name
+        description: "name"
+        tests:
+          - not_null
